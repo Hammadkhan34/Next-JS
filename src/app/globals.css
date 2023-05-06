@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.heading {
+    color: #4d4d4d;
+    font-family: Arial, sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px #ccc;
+  }
+  

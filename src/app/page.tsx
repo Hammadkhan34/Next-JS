@@ -1,8 +1,12 @@
-import Image from 'next/image'
+import React from "react";
+import "./styles.css";
 
-export default function Home() {
+function App() {
   return (
-   
-          <h3>Greetings from Hammad, a proud student of Batch 42 studying the fascinating worlds of Web 3.0 and the Metaverse!</h3>
-  )
+    <div>
+      <h1 className="heading">Greetings from Hammad, a proud student of Batch 42 studying the fascinating worlds of Web 3.0 and the Metaverse</h1>
+    </div>
+  );
 }
+
+export default App;
